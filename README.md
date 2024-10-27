@@ -55,6 +55,7 @@ The project is built using **React** for the frontend and **Tailwind CSS** for s
    ```sh
    cd kanban-dashboard
    ```
+   NOTE: Delete Node Modules before going to next instruction
 3. Install dependencies:
    ```sh
    npm install
