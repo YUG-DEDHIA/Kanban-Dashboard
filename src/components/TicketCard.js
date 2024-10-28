@@ -6,6 +6,7 @@ const TicketCard = ({ ticket }) => {
       <span className="ticket-id text-xs font-semibold text-gray-500">#{ticket.id}</span>
       <h3 className="text-lg font-bold text-gray-800 mt-1">{ticket.title}</h3>
       <p className="text-gray-600 mt-2">{ticket.description}</p>
+      <p className="text-gray-600 mt-2">Status: {ticket.status}</p>
     </div>
   );
 };
